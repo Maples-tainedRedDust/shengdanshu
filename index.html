@@ -52,11 +52,10 @@
             if (canAutoPlay) {
                 video.muted = false;
                 model.style.display = 'none'; 
-                button.removeEventListener('click', play); 
             }
             else { 
                 model.style.display = 'block';
-                button.addEventListener('click', play);
+               
             }
         } 
         play()
